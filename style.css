@@ -101,7 +101,7 @@ html, body {
   width: 150px;
   height: 150px;
   padding: 6px;
-  border-radius: 50%;
+  border-radius: 20px;
   background: rgba(255,255,255,0.25);
   position: relative;
 }
@@ -109,7 +109,7 @@ html, body {
 .profile-glass img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: 20px;
   object-fit: cover;
 }
 
@@ -118,7 +118,7 @@ html, body {
   content: "";
   position: absolute;
   inset: -8px;
-  border-radius: 50%;
+  border-radius: 22px;
   border: 2px solid rgba(255,255,255,0.5);
   animation: pulse 2.5s infinite;
 }
@@ -229,6 +229,13 @@ html, body {
 
 .edu-card {
   padding: 18px 20px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.16);
+  border: 1px solid rgba(255,255,255,0.28);
+}
+
+.edu-card-age {
+  padding: 10px 12px;
   border-radius: 18px;
   background: rgba(255,255,255,0.16);
   border: 1px solid rgba(255,255,255,0.28);
